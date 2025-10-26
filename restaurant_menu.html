@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restaurant | Ahmed Mamdouh</title>
+    <Style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #fffffe;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-img {
+    width: 50px;
+    padding-right: 1rem;
+}
+
+#brand-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    color: #ff8906;
+    margin-right: 5rem;
+    text-decoration: none;
+    font-size: large;
+}
+
+ul li a:hover {
+    border-bottom: 3px #a7a9be solid;
+}
+
+#menu-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#order-section {
+    display: flex;
+    justify-content: center;
+}
+/* 
+#a7a9be DONE
+#e53170
+#f25f4c
+*/
+    </Style>
+</head>
+
+<body>
+    <!-- Start HEADER -->
+    <header>
+        <section id="brand-section">
+            <img src="pixel-art-cafe-scene-with-outdoor-seating-bright-sun_1292377-21645.jpg" id="header-img"
+            alt="Logo">
+            <h1 style="color: #0f0e17;">Cozy Restaurant</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End HEADER -->
+    
+    <!-- Start MAIN -->
+    <main>
+        <h2 style="color: #0f0e17; text-align: center;">Menu</h2>
+        <section id="menu-section">
+            <article>
+                <figure>
+                    <img src="/Food/food-hamburgers-delicious-png.png" alt="food1" style="width: 100px; height: 100px;">
+                    <figcaption>
+                        <h3>Smashed Burger</h3>
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="/Food/pngtree-pixel-art-french-fries-in-retro-gaming-style-png-image_20780008.png" alt="food1" style="width: 100px;  height: 100px;">
+                    <img src="/Food/pngtree-pixel-art-french-fries-in-retro-gaming-style-png-image_20780008.png" alt="food1" style="width: 100px;  height: 100px;">
+                    <figcaption>
+                        <h3>French Fires</h3>
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="/Food/19-193551_transparent-pancakes-pixel-art-food-png.png" alt="food1" style="width: 100px;  height: 100px;">
+                    <figcaption>
+                        <h3>Butter Pancakes</h3>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+        <hr>
+        <h2 style="color: #0f0e17; text-align: center;">Place Order</h2>
+        <section id="order-section">
+            <form action="">
+                <label for="item-name">Item Name :
+                    <input type="text" name="name" id="" required style="width: 143px;">
+                </label><br><br>
+                <label for="item-num">Items Number :
+                    <input type="number" min="0" max="10" name="item-num" id="" required>
+                </label><br><br>
+                Add Ketchup ?
+                <label for="yes">
+                    <input type="radio" name="item-sides" id="yes" value="YES">Yes
+                </label>
+                <label for="no">
+                    <input type="radio" name="item-sides" id="no" value="NO">No
+                </label>
+                <br><br>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Add Special Requests ..."></textarea>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <!-- End MAIN -->
+    
+    <!-- Start FOOTER -->
+    <footer>
+        <p style="text-align: center;">Made with love by Ahmed0_0Mamdouh ❤️</p>
+    </footer>
+    <!-- End FOOTER -->
+</body>
+
+</html>
